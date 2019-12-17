@@ -1,6 +1,6 @@
 body
 {
-	font:'Source Code Pro',monospace;
+	font-family: 'Source Code Pro',monospace;
 	color: rgba(0,0,0,.5);
 	text-align: center;
 	text-transform: uppercase;
@@ -10,7 +10,7 @@ body
 }
 h1
 {
-	font-style: 'Source Code Pro',monospace;
+	font-family: 'Source Code Pro',monospace;
 	color: rgba(0,0,0,.5);
 	text-align: center;
 	text-transform: uppercase;
@@ -19,7 +19,7 @@ h1
 }
 h3
 {
-	font:900 1em 'Source Code Pro',monospace;
+	font-family: 900 1em 'Source Code Pro',monospace;
 	color:rgba(0,0,0,.5);
 	text-align: center;
 	text-transform: none;
@@ -32,23 +32,6 @@ h3
     border: none;
     cursor:pointer;
     overflow: hidden;
-}
-
-
-.svg-icon {
-  width: 30px;
-  height: 30px;
-}
-
-.svg-icon path,
-.svg-icon polygon,
-.svg-icon rect {
-  fill: #4691f6;
-}
-
-.svg-icon circle {
-  stroke: #4691f6;
-  stroke-width: 1;
 }
 
 .color1,.color2
