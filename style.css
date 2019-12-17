@@ -1,0 +1,55 @@
+body
+{
+	font:'Raleway',sans-serif;
+	color: rgba(0,0,0,.5);
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	top:15%;
+	background:linear-gradient(to right,red,yellow);
+}
+h1
+{
+	font:600 3.5em 'Raleway',sans-serif;
+	color: rgba(0,0,0,.5);
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	width: 100%;
+}
+h3
+{
+	font:900 1em 'Raleway',sans-serif;
+	color:rgba(0,0,0,.5);
+	text-align: center;
+	text-transform: none;
+	letter-spacing: 0.01em;
+}
+.btn
+{
+	background-color:white;
+	border:none;
+	cursor: pointer;
+	border-radius: 200px;
+}
+.btn:hover
+{
+	background-color: black;
+}
+
+.svg-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #4691f6;
+}
+
+.svg-icon circle {
+  stroke: #4691f6;
+  stroke-width: 1;
+}
+
