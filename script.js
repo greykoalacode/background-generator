@@ -14,7 +14,8 @@ function firstTime()
 function background()
 {
 	body.style.background="linear-gradient(to right, "+color1.value+", "+color2.value+")";
-    css.textContent = body.style.background+";";
+    let bd = getComputedStyle(body);
+    css.textContent = bd.backgroundImage + ';';
 }
 // to get random color
 function getRandomColor() {
@@ -40,6 +41,5 @@ shuffle.addEventListener("click",generatr);
 
 color1.addEventListener("input",background);
 color2.addEventListener("input",background);
-
 
 
