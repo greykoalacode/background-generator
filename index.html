@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
 <head>
 	<title>Gradient Generator</title>
-	
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
 	<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -11,14 +13,23 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body id="gradient">
+	 <div class="title">
      <h1>Background Generator</h1>
-     <input id="color1" class="color1" type="color" name="color1" value="#ffffff">
-     <input id="color2" class="color2" type="color" name="color2" value="#0611ff">
+     </div>
+     <div class="palette">
+     <input id="color1" class="color1" type="color" name="color1" value="#FFF800">
+     <input id="color2" class="color2" type="color" name="color2" value="#005C30">
      <p></p>
      <button id="shuffle" class="btn"><img src="rename.png"></button>
+     </div>
+     <div class="prop">
      <h2>CSS Property</h2>
+     <p>
      <h3></h3>
+     </p>
+     </div>
      <footer class="fixed-bottom">
+     	<a href="https://github.com/greykoalacode"><img src="github.png"></a>
      	<a href="https://icons8.com/"><img src="icons8.png"> </a>
      </footer>
      <script type="text/javascript" src="script.js"></script>
