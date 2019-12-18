@@ -1,12 +1,13 @@
 var css=document.querySelector("h3");
-var color1=document.getElementById("#color1");
-var color2=document.getElementById("#color2");
+var color1=document.getElementById("color1");
+var color2=document.getElementById("color2");
 var body=document.getElementById("gradient");
+
 // to set initial color and its linear gradient code
 function firstTime()
 {
 	color1.value="#fff800";
-	color2.value="#005c30"
+	color2.value="#005c30";
 	background();
 }
 
@@ -17,6 +18,7 @@ function background()
     let bd = getComputedStyle(body);
     css.textContent = bd.backgroundImage + ';';
 }
+
 // to get random color
 function getRandomColor() {
   var letters = '0123456789ABCDEF';
@@ -26,6 +28,7 @@ function getRandomColor() {
   }
   return color;
 }
+
 //to generate random color
 function generatr()
 {
