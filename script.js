@@ -5,8 +5,8 @@ var body=document.getElementById("gradient");
 // to set initial color and its linear gradient code
 function firstTime()
 {
-	color1.value="#ffffff";
-	color2.value="#0611ff"
+	color1.value="#fff800";
+	color2.value="#005c30"
 	background();
 }
 
