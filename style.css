@@ -10,6 +10,7 @@ body
 }
 h1
 {
+	font-size: 5vw;
 	font-family: 'Source Code Pro',monospace;
 	color: rgba(0,0,0,.5);
 	text-align: center;
@@ -17,9 +18,14 @@ h1
 	letter-spacing: .05em;
 	width: 100%;
 }
+h2
+{
+	font-size: 3.5vw;
+}
 h3
 {
 	font-family: 900 1em 'Source Code Pro',monospace;
+	font-size: 2vw;
 	color:rgba(0,0,0,.5);
 	text-align: center;
 	text-transform: none;
@@ -42,12 +48,28 @@ h3
 @media only screen and (max-width: 600px) {
 	h1
 	{
-		font-size: 10vw;
+		font-size: 8vw;
 		letter-spacing: 0.02em;
 	}
 	h2
 	{
 		letter-spacing: 0.02em;
+		font-size: 5vw;
+	}
+	h3
+	{
+		font-size: 3.5vw;
+
+	}
+}
+@media only screen and(max-width:200px)
+{
+	h1
+	{
+		font-size: 6vw;
+	}
+	h3
+	{
 		font-size: 5vw;
 	}
 }
