@@ -31,13 +31,10 @@ h3
 	text-transform: none;
 	letter-spacing: 0.01em;
 }
-.btn
+
+button:hover
 {
-	background-color: Transparent;
-    background-repeat:no-repeat;
-    border: none;
-    cursor:pointer;
-    overflow: hidden;
+	opacity:0.7;
 }
 
 .color1,.color2
@@ -45,7 +42,7 @@ h3
 	border:none;
 	padding: 0px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
 	h1
 	{
 		font-size: 8vw;
@@ -76,4 +73,14 @@ h3
 div
 {
 	margin: 4vw;
+}
+.btn
+{
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border-style: none;
+    outline: none;
+    cursor:pointer;
+    overflow: hidden;
+    opacity: 0.5;
 }
